@@ -1,0 +1,54 @@
+ body, 
+
+.bg {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5b5f5062b1059833aff969e4/1659363463973-IY0ESEWXCZ04I6XO1ABM/340F1F4A-62A3-4612-BE89-E1272C31C2FE.JPG?) ;
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    image-rendering: optimizeQuality;
+    color: white;
+            font-size: 30px;
+            text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+    
+}
+a:link {
+   color: white;
+   background-color: gray;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: red;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%; 
+    margin-left: 25%;
+    margin-right: 15%;    
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkgray;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    border: 6px solid darkgray ;
+    text-align: center;
+}
+li{
+    margin-left: 35%;
+    text-align: left;
+}
